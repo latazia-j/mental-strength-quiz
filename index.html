@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Mental Strength Quiz</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <div class="quiz-container">
-    <h1>Mental Strength Quiz</h1>
-    <div id="question-container"></div>
-    <p id="score-display"></p>
-    <button id="restart-btn" style="display:none;">Restart</button>
-  </div>
-  <footer>
-    <p>Created by Latazia Joseph – 2025</p>
-  </footer>
+  <main class="quiz-app">
+    <h1 class="quiz-title">Mental Strength Quiz</h1>
+    <p class="quiz-subtitle">
+      A gentle reflection quiz to help you notice strengths in your resilience.
+    </p>
+
+    <!-- QUIZ CONTENT -->
+    <div id="question-container" class="quiz-question-container"></div>
+
+    <!-- SCORE -->
+    <p id="score-display" class="quiz-score"></p>
+
+    <!-- RESTART BUTTON -->
+    <button id="restart-btn" class="btn-secondary" style="display:none;">
+      Restart Quiz
+    </button>
+
+    <!-- FOOTER -->
+    <p class="quiz-footer">Created by Latazia Joseph – 2025</p>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
